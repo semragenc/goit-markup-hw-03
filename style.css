@@ -151,7 +151,12 @@ p {
 }
 
 .work-image {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    margin-right: 0;
+    row-gap: 48px;
 }
 
 footer {
@@ -160,6 +165,7 @@ footer {
 
 .footer-text {
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .portfolio-header {
@@ -168,6 +174,7 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .fourth-chapter>h3 {
@@ -178,7 +185,18 @@ footer {
     text-transform: capitalize;
     color: #2e2f42;
 }
-
+.fourth-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.birinci{
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .portfolio-text{
     font-size: 16px;
     line-height: 1.5;
@@ -193,6 +211,7 @@ footer {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .footer .studio-word .span{
@@ -209,4 +228,11 @@ footer {
 }
 .studio{
   color: #f4f4fd;  
+  display: inline-block;
+}
+.end{
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 16px;
 }
