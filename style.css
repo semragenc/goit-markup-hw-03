@@ -16,9 +16,13 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
-.logo-text {
+.son .logo-text .studio-word {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -27,7 +31,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-right: 76px;
+    margin-bottom: 16px;
 
 }
 .ana-baslik{
@@ -195,15 +199,18 @@ p {
     row-gap: 48px;
 }
 
-footer {
+.son{
     background-color: #2e2f42;
     padding: 100px 0;
-    margin-bottom: 16px;
 }
+
 
 .footer-text {
     color: #F4F4FD;
     max-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-header {
