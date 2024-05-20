@@ -22,6 +22,17 @@ body {
     letter-spacing: 0.02em;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .son .logo-text .studio-word {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -46,10 +57,20 @@ body {
 
 }
 .ana-baslik-nav{
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
 }
-
+.logo-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
 address {
     font-style: normal;
 }
@@ -91,18 +112,31 @@ address {
 }
 
 .vehicles {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
     display: flex;
     gap: 40px;
 
 }
 
-.vehicles:hover {
+.vehicles .header-list:last-child {
+    margin-right: 0;
+}
+
+.hvehicles .header-list .baglanti {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
+.vehicles .header-list .baglanti:hover {
     color: #404bbf;
-    width: 1158px;
+}
+
+.vehicles .header-list .baglanti:focus {
+    color: #404bbf;
 }
 
 .first-header {
