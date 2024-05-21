@@ -18,6 +18,8 @@ body {
 
 a {
     text-decoration: none;
+    display: inline-block; /*eklendi*/
+    margin-bottom: 16px; /*eklendi*/
 }
 
 h1,
@@ -290,6 +292,7 @@ ul {
 .studio {
     color: #F4F4FD;
     display: inline-block;
+    margin-bottom: 16px; /*eklendi*/
 }
 
 .footer .text {
@@ -299,7 +302,6 @@ ul {
     max-width: 264px;
 }
 
-/* Eklemeler ve Düzenlemeler */
 ul.section-ul {
     display: flex;
     flex-wrap: wrap;
